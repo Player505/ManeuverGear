@@ -28,7 +28,7 @@ public class ManeuverGear {
 	public static final String VERSION = MCVERSION + "-" + MAJORMOD + "." + MAJORAPI + "." + MINOR + "." + PATCH;
 	public static final String ACCEPTED_VERSIONS = "[" + MCVERSION + "]";
 
-	public static final String DEPENDENCIES = "require-after:immersiveengineering@[1.12-67,)";
+	public static final String DEPENDENCIES = "required-after:immersiveengineering@[0.12-66,)";
 
 	public static final String CLIENT_PROXY_CLASS = "com.player404.maneuvergear.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.player404.maneuvergear.proxy.ServerProxy";
