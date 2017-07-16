@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = ManeuverGear.MOD_ID, name = ManeuverGear.MOD_NAME, version = ManeuverGear.VERSION, acceptedMinecraftVersions = ManeuverGear.ACCEPTED_VERSIONS, dependencies = ManeuverGear.DEPENDENCIES)
+@Mod(modid = ManeuverGear.MOD_ID, name = ManeuverGear.MOD_NAME, version = ManeuverGear.VERSION, acceptedMinecraftVersions = ManeuverGear.ACCEPTED_VERSIONS)
 public class ManeuverGear {
 
 	public static final String MOD_ID = "maneuvergear";
@@ -32,7 +32,7 @@ public class ManeuverGear {
 
 	public static final String CLIENT_PROXY_CLASS = "com.player404.maneuvergear.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.player404.maneuvergear.proxy.ServerProxy";
-	public static final String COMMON_PROXY_CLASS = "com.player404.maneuvergear.proxy.Common";
+	public static final String COMMON_PROXY_CLASS = "com.player404.maneuvergear.proxy.CommonProxy";
 
 	@Instance(MOD_ID)
 	public static ManeuverGear instance;
