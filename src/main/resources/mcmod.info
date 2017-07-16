@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "maneuvergear",
+    "name": "Maneuver Gear",
+    "description": "This is the re-implementation of the 3d maneuver gear from immersive engineering ",
+    "version": "${version}",
+    "credits": "",
+    "logoFile": "",
+    "mcversion": "${mcversion}",
+    "url": "http://",
+    "updateUrl": "",
+    "authorList": [
+      "Player404"
+    ],
+    "parent": "",
+    "screenshots": [],
+    "dependencies": [
+      "mod_MinecraftForge"
+    ]
+  }
+]

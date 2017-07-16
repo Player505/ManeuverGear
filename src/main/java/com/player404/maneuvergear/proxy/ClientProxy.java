@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.player404.maneuvergear.ManeuverGear;
+import com.player404.maneuvergear.common.item.ModItems;
 
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -38,6 +39,7 @@ public class ClientProxy extends CommonProxy {
 
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
+		ModItems.initModels();
 		LOGGER.info("Models Registration");
 	}
 
